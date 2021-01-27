@@ -1,0 +1,320 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+	body{
+		overflow: auto;
+	}
+	#Banner .blacksection::before {
+		display: none;
+	}
+	#Banner {
+		width: 100%;
+	}
+	header {
+		background: black; /* Old browsers */
+		position: fixed;
+		width: 100%;
+		padding: 20px;
+		z-index: 99999;
+	}
+	header .mobile-logo {
+		display: block;
+		width: 60px;
+	}
+	#Banner .logo {
+		display: none;
+		
+	}
+	.mobile-logo img {
+		width: 100%;
+		height: auto;
+	}
+	#Banner h1 {
+		font-size: 60px;
+		right: auto;
+		top: 35%;
+		transform: translate(-50%,-50%);
+		opacity: 1;
+		left: 50%;
+		text-align: left;
+	}
+	#Banner p {
+		font-size: 20px;
+		right: auto;
+		top: 75%;
+		transform: translate(-50%,-50%);
+		opacity: 1;
+		left: 50%;
+		text-align: left;
+		width: 300px;
+		overflow-wrap: anywhere;
+	}
+	.mobile-header {
+		display: block;
+	}
+	#Services {
+		padding: 30px 0;
+	}
+	#Services h2 {
+	    font-size: 38px;
+	    margin-bottom: 30px;
+	}
+	#Services .each-services img {
+		padding-bottom: 10px;
+	}
+	.each-services {
+	    margin-bottom: 40px;
+	}
+	#OurWork h2, #AboutSlider h2 {
+		font-size: 38px;
+	}
+	#OurWork .grey-box {
+		margin-bottom: 30px;
+	}
+	#OurWork .each-work {
+		padding: 0 7px 10px;
+		width: 127px;
+		height: 120px;
+	}
+	#OurWork .each-work img {
+		width: 100%;
+		height: auto;
+	}
+	#OurReviews h2 {
+		font-size: 40px;
+		margin-bottom: 6rem;
+	}
+	#OurReviews {
+		padding: 60px 0;
+		
+	} 
+	.each-block {
+	    position: static;
+	    width: auto;
+	    padding: 0 0;
+	    margin-bottom: 45px;
+	    display: inline-block;
+	}
+	#OurReviews .each-block {
+		position: absolute;
+		width: 400px;
+	}
+	#OurReviews .each-block.one {
+		left: 0;
+		top: -10%;
+	}
+	#OurReviews .each-block.two {
+		top: 35%;
+		right: 0;
+	}
+	#OurReviews .each-block.three {
+		top: 85%;
+		left: 0;
+	}
+	#OurReviews .learnmore a {
+		top: 100%;
+		position: relative;
+		margin-top: 10rem;
+	}
+
+	.Reviews-wrap {
+		margin: 40px 0;
+	}
+	#AboutSlider {
+		padding: 40px 0;
+	}
+	.About-dtl p {
+	    width: auto;
+	    padding: 0 20px;
+	}
+	.About-dtl h5 {
+		padding-top: 20px;
+	}
+	#Footer p {
+		font-size: 34px;
+	}
+	.social-icons li i {
+	    font-size: 26px;
+	}
+	.Reviews-wrap {
+		height: auto;
+	}
+	#OurReviews .each-block {
+		width: 100%;
+	}
+	#OurReviews .Reviews-wrap::before, #OurReviews .each-block::before {
+		display: none;
+	}
+	#OurReviews .Reviews-wrap .Reviews-intro {
+		width: 75%;
+	}
+	#About {
+		padding-bottom: 30px;
+	}
+	#About span {
+		font-size: 50px;
+	}
+	#About h2 {
+		font-size: 40px;
+	}
+	#About .title {
+		width: 70%;
+	}
+	#About .About-wrapper {
+		margin-top: 50px;
+	}
+	#About .About-wrapper .latest-About {
+		margin-right: 0;
+	}
+	#About .About-wrapper .each-About {
+		width: 100%;
+	}
+	#About .About-wrapper .old-About {
+		margin: 0 0 30px 0;
+		height: auto;
+	}
+	#About .each-About .profile {
+		position: static;
+	}
+	.social-icons li {
+		margin: 0 8px;
+	}
+	.menu-toggle {
+		position: fixed;
+		right: 60px;
+		top: 30px;
+		padding: 4px 10px;
+		text-align: center;
+		color: #fff;
+		background: #FF39CD;
+		z-index: 999;
+		width: 56px;
+		height: 50px;
+		line-height: 51px;
+	  }
+	  .menu-toggle i {
+		  font-size: 30px;
+		  line-height: 40px;
+	  }
+	  .menu-toggle:focus, .menu-toggle:hover {
+		color: #fff;
+	  }
+	  .menu-toggle:hover, .menu-toggle.active {
+		background: #c627e6;
+	  }
+	  #About p {
+		  margin-top: 3rem;
+	  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 768px) and (max-width: 991px){
+	body{
+		overflow: hidden;
+	}
+	#Banner {
+		width: 100%;
+		height: 60vh;
+	}
+	header {
+		background: black; /* Old browsers */
+		position: fixed;
+		width: 100%;
+		padding: 20px;
+		z-index: 99999;
+	}
+	header .mobile-logo {
+		display: block;
+		width: 60px;
+	}
+	#Banner .logo {
+		display: none;
+		margin-bottom: 10rem;
+	}
+	.mobile-logo img {
+		width: 100%;
+		height: auto;
+	}
+	#Banner h1 {
+		right: 16%;
+		opacity: 1;
+	}
+	#OurReviews .each-block::before , #OurReviews .Reviews-wrap::before {
+		display: none;
+	}
+	#OurReviews .each-block {
+		width: 100%;
+	}
+	#Services {
+	   padding: 30px 0; 
+	}
+	#Services h2 {
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+	#Services .each-services img {
+	    width: 58px;
+	    padding-bottom: 10px;
+	}
+	#Services .each-services h3 {
+		font-size: 22px;
+		min-height: 50px;
+	}
+	#Services .each-services p {
+		font-size: 16px;
+	}
+	#Banner .blacksection::before {
+	    right: 0;
+	    transform: rotate(50deg);
+	    top: 0;
+	}
+	#OurWork h2, #AboutSlider h2, #OurReviews h2 {
+		font-size: 38px;
+	}
+	#OurWork .each-work {
+		width: 151px;
+	}
+	.Reviews-wrap:before {
+		content: none;
+	}
+	#Footer p {
+		font-size: 30px;
+	}
+	.social-icons li i {
+		font-size: 36px;
+	}
+	#About .About-wrapper {
+		margin-top: 60px;
+	}
+	#AboutSlider {
+		font-size: 40px;
+	}
+	#About .About-wrapper .latest-About {
+		margin-right: 0;
+		width: 100%;
+	}
+	#About .About-wrapper .old-About {
+		width: 46%;
+	}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 992px) and (max-width: 1024px){
+	#Banner .blacksection::before {
+		width: 1200px;
+	}
+	#Banner h1 {
+		font-size: 60px;
+	}
+	#OurWork .each-work {
+		width: 30.6%;
+	}
+	#OurReviews .each-block::before {
+		right: -53px;
+	}
+	#OurReviews .each-block.two::before {
+		left: -52px;
+	}
+	#About .About-wrapper .each-About {
+		width: 31%;
+	}
+}
