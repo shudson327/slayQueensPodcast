@@ -298,7 +298,7 @@ body.active .mscroll {
 #OurWork .each-work {
   display: inline-block;
   width: 31%;
-  background-color: #FF7ADE;
+  background-color: white;
   margin: 0 8px 10px;
   height: 200px;
   position: relative;
