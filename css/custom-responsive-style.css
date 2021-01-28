@@ -103,7 +103,7 @@
 		top: -10%;
 	}
 	#OurReviews .each-block.two {
-		top: 35%;
+		top: 38%;
 		right: 0;
 	}
 	#OurReviews .each-block.three {
@@ -114,6 +114,10 @@
 		top: 100%;
 		position: relative;
 		margin-top: 10rem;
+	}
+
+	#OurReviews .Reviews-intro p{
+		width: 400px;
 	}
 
 	.Reviews-wrap {
@@ -128,6 +132,11 @@
 	}
 	.About-dtl h5 {
 		padding-top: 20px;
+	}
+	.About img {
+		display: block;
+		margin: 0 auto;
+		align-items: center;
 	}
 	#Footer p {
 		font-size: 34px;
@@ -180,7 +189,7 @@
 	}
 	.menu-toggle {
 		position: fixed;
-		right: 60px;
+		right: 50px;
 		top: 30px;
 		padding: 4px 10px;
 		text-align: center;
