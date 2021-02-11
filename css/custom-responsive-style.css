@@ -72,8 +72,8 @@
 	}
 	#OurWork .each-work {
 		padding: 0 7px 10px;
-		width: 127px;
-		height: 120px;
+		width: 33.3%;
+
 	}
 	#OurWork .each-work img {
 		width: 100%;
@@ -133,11 +133,7 @@
 	.About-dtl h5 {
 		padding-top: 20px;
 	}
-	.About img {
-		display: block;
-		margin: 0 auto;
-		align-items: center;
-	}
+
 	#Footer p {
 		font-size: 34px;
 	}
